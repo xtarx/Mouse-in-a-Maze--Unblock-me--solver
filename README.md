@@ -26,7 +26,7 @@ using the following schema :
 Run `MainClass` 
 
 By default a random board is generated ,to use your cusotm board 
-just comment the  `board.autoGenerate()`   the Mainclass constructior
+just comment the  `board.autoGenerate()`   the Mainclass constructor
 
 
 That's it!
