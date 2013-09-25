@@ -2,15 +2,16 @@ MiM Solver
 ========
 
 Mouse in a Maze (Unblock me) solver, using different algorithmic strategies (BF,DF,ID,GR,AS) 
-.Breadth First Search
-.Depth First Search
-.Iterative Depth First Search
-.Greedy Search 
-.Astar Search 
+*Breadth First Search
+*Depth First Search
+*Iterative Depth First Search
+*Greedy Search 
+*Astar Search 
 
 Usage:
 
-First configure the board in the 
+First configure the board in the  `Board` class in the  `Board method`
+using the following schema :
 
 | Key       	| Value        |
 | ------------- |:-------------|
@@ -21,17 +22,13 @@ First configure the board in the
 | 3,5,4  | 3 gird Vertical tile     |
 
 
-Run `MainClass` to your local Ti project `widgets/` folder.
 
-Be sure to update your project's `config.json` file, add `"ytPlayer": "1.0"` to `"dependencies"`.
+Run `MainClass` 
 
-In your controller: 
+By default a random board is generated ,to use your cusotm board 
+just comment the  `board.autoGenerate()`   the Mainclass constructior
 
-    // call method .play(), pass YouTube ID of video to play
-    Alloy.createWidget('ytPlayer').play('BXb5zeaaZss');
-
-See [sample app](https://github.com/bob-sims/ytPlayer/tree/master/app).
 
 That's it!
  
-[@2wheelsburing](http://www.twitter.com/2wheelsburing)
+[@xtarx](http://www.twitter.com/xtarx)
