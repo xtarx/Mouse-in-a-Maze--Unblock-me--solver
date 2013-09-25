@@ -1,4 +1,3 @@
-package ai_project1.aiodsjioasndo;
 
 import java.util.Arrays;
 import java.util.Queue;
@@ -31,9 +30,13 @@ public class Board {
 
     void autoGenerate() {
         int mousePosition = (int) (Math.random() * 4);
-        board = new int[][]{{0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0},
-            {0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0}};
+        board = new int[][]{
+            {0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0}, 
+            {0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0}};
         board[2][mousePosition] = 1;
         board[2][mousePosition + 1] = 2;
         int counter = 0;

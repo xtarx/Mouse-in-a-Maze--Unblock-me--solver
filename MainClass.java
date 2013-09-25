@@ -1,4 +1,3 @@
-package ai_project1.aiodsjioasndo;
 
 /**
  * @author XtarX
