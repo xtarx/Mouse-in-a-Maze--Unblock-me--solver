@@ -2,11 +2,11 @@ MiM Solver
 ========
 
 Mouse in a Maze (Unblock me) solver, using different algorithmic strategies (BF,DF,ID,GR,AS) 
-*Breadth First Search
-*Depth First Search
-*Iterative Depth First Search
-*Greedy Search 
-*Astar Search 
+* Breadth First Search
+* Depth First Search
+* Iterative Depth First Search
+* Greedy Search 
+* Astar Search 
 
 Usage:
 
